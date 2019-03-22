@@ -43,9 +43,7 @@ paginate = 10
 		tripadvisor="Restaurant_Review-g41276-d2317412-Reviews-Concetta_s_Mainstreet_Bistro-Mount_Airy_Maryland.html"
 
 		copyright = [
-			"&copy; John Doe",
-			"Design: [HTML5 UP](//html5up.net)",
-			"Demo Images: [Unsplash](//unsplash.com/)"
+			"&copy; Concetta's Main Street Bistro",
 		]
 
 

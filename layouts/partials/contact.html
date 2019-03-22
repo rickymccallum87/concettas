@@ -46,12 +46,41 @@
 					<a href="tel:{{ .Site.Params.contact.phone | replaceRE "[\\s-]" "$1" }}">{{ .Site.Params.contact.phone }}</a>
 				</li>
 				{{ end }}
-				{{ if isset .Site.Params.contact "jabber" }}
+				<!-- {{ if isset .Site.Params.contact "jabber" }} -->
 				<li>
-					<h3 class="icon fa fa-mobile"><span class="label"></span></h3>
-					<a href="#">{{ .Site.Params.contact.jabber }}</a>
+					<h3 class="icon fa fa-clock-o"><span class="label"></span></h3>
+					<table>
+						<tr>
+							<td>Sun</td>
+							<td>7:30a - 3p</td>
+						</tr>
+						<tr>
+							<td>Mon</td>
+							<td>7:30a - 4p</td>
+						</tr>
+						<tr>
+							<td>Tue</td>
+							<td>7:30a - 4p</td>
+						</tr>
+						<tr>
+							<td>Wed</td>
+							<td>7:30a - 4p</td>
+						</tr>
+						<tr>
+							<td>Thu</td>
+							<td>7:30a - 6p</td>
+						</tr>
+						<tr>
+							<td>Fri</td>
+							<td>7:30a - 4p</td>
+						</tr>
+						<tr>
+							<td>Sat</td>
+							<td>7:30a - 4p</td>
+						</tr>
+					</table>
 				</li>
-				{{ end }}
+				<!-- {{ end }} -->
 				<!-- {{ if isset .Site.Params.contact "email" }}
 				<li>
 					<h3 class="icon fa-envelope"><span class="label"></span></h3>

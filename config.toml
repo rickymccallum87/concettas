@@ -109,11 +109,10 @@ paginate = 10
 		# This can be exact coordinates or a searchable address in google maps
 		gmaps_address = "39.7889055,-120.5443524"
 		address = [
-			"1234 Somewhere Rd.",
-			"Nashville, TN 00000",
-			"United States"
+			"231 South Main Street",
+			"Mount Airy, MD 21771"
 		]
-		phone = "000-000-0000"
+		phone = "301-829-7571"
 
 		# Since this template is static, the contact form uses www.formspree.io as a
 		# proxy. The form makes a POST request to their servers to send the actual
@@ -126,7 +125,7 @@ paginate = 10
 	    # - send a dummy email yourself to confirm your account
 	    # - click the confirm link in the email from www.formspree.io
 	    # - you're done. Happy mailing!
-		email = "hello@example.com"
+		email = "concettas@verizon.net"
 
 		[params.contact.form]
 			# Set custom strings for the form if your native

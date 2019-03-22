@@ -31,14 +31,16 @@ paginate = 10
 		# Use Markdown to format the string. This works nearly all over the theme
 		bio = "**Concetta's Main Street Bistro** <br> Located in historic downtown Mount Airy and open daily at 7:30. We invite you to stop in!"
 		# The icons will be shown if you enter your username
-		twitter = "spf13"
-		github = "spf13"
-		gitlab = "spf13"
-		dribbble = ""
-		facebook = ""
-		googleplus = ""
-		flickr = ""
-		linkedin = ""
+		# twitter = "spf13"
+		# github = "spf13"
+		# gitlab = "spf13"
+		# dribbble = ""
+		facebook = "Concettas-Mainstreet-Bistro-108116492564016"
+		# googleplus = ""
+		# flickr = ""
+		# linkedin = ""
+		yelp = "concettas-main-steet-bistro-mount-airy"
+		tripadvisor="Restaurant_Review-g41276-d2317412-Reviews-Concetta_s_Mainstreet_Bistro-Mount_Airy_Maryland.html"
 
 		copyright = [
 			"&copy; John Doe",
@@ -133,6 +135,9 @@ paginate = 10
 			email = "Email"
 			message = "Message"
 			submit = "Send message"
+
+	[params.rss]
+		hide = true
 
 
 # Menu links that appear on the left sidebar

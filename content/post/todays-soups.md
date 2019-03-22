@@ -10,5 +10,3 @@ draft: false
 - Chili
 - Creamy broccoli rice
 - Cream of crab
-
-![](/img/spring-menu.jpg)

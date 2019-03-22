@@ -46,7 +46,6 @@
 					<a href="tel:{{ .Site.Params.contact.phone | replaceRE "[\\s-]" "$1" }}">{{ .Site.Params.contact.phone }}</a>
 				</li>
 				{{ end }}
-				<!-- {{ if isset .Site.Params.contact "jabber" }} -->
 				<li>
 					<h3 class="icon fa fa-clock-o"><span class="label"></span></h3>
 					<table>
@@ -80,7 +79,6 @@
 						</tr>
 					</table>
 				</li>
-				<!-- {{ end }} -->
 				<!-- {{ if isset .Site.Params.contact "email" }}
 				<li>
 					<h3 class="icon fa-envelope"><span class="label"></span></h3>

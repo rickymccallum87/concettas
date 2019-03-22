@@ -107,7 +107,7 @@ paginate = 10
 		content = "Accumsan pellentesque commodo blandit enim arcu non at amet id arcu magna. Accumsan orci faucibus id eu lorem semper nunc nisi lorem vulputate lorem neque lorem ipsum dolor."
 
 		# This can be exact coordinates or a searchable address in google maps
-		gmaps_address = "39.7889055,-120.5443524"
+		gmaps_address = "231 S Main St, Mt Airy, MD 21771"
 		address = [
 			"231 South Main Street",
 			"Mount Airy, MD 21771"

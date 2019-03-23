@@ -1,0 +1,73 @@
+<section>
+	<div class="row">
+		<div class="8u 12u$(small)">
+			<header class="major">
+				{{ with .Site.Params.about.title }}<h2>{{ . | markdownify }}</h2>{{ end }}
+			</header>
+			{{ with .Site.Params.about.content }}<p>{{ . | markdownify }}</p>{{ end }}
+		</div>
+		<div class="4u$ 12u$(small)">
+			<ul class="labeled-icons">
+				{{ if isset .Site.Params.contact "address" }}
+				<li>
+					<h3 class="icon fa-map-marker"><span class="label"></span></h3>
+					{{ if isset .Site.Params.contact "gmaps_address" }}
+					<a href="https://maps.google.com/?q={{ .Site.Params.contact.gmaps_address}}">
+					{{ end }}
+					{{ range .Site.Params.contact.address }}
+						{{ . }}<br />
+					{{ end }}
+					{{ if isset .Site.Params.contact "gmaps_address" }}
+					</a>
+					{{ end }}
+				</li>
+				{{ end }}
+				{{ if isset .Site.Params.contact "phone" }}
+				<li>
+					<h3 class="icon fa-phone"><span class="label"></span></h3>
+					<a href="tel:{{ .Site.Params.contact.phone | replaceRE "[\\s-]" "$1" }}">{{ .Site.Params.contact.phone }}</a>
+				</li>
+				{{ end }}
+				<li>
+					<h3 class="icon fa-clock-o"><span class="label"></span></h3>
+					<table>
+						<tr>
+							<td>Sun</td>
+							<td>7:30a - 3p</td>
+						</tr>
+						<tr>
+							<td>Mon</td>
+							<td>7:30a - 4p</td>
+						</tr>
+						<tr>
+							<td>Tue</td>
+							<td>7:30a - 4p</td>
+						</tr>
+						<tr>
+							<td>Wed</td>
+							<td>7:30a - 4p</td>
+						</tr>
+						<tr>
+							<td>Thu</td>
+							<td>7:30a - 6p</td>
+						</tr>
+						<tr>
+							<td>Fri</td>
+							<td>7:30a - 4p</td>
+						</tr>
+						<tr>
+							<td>Sat</td>
+							<td>7:30a - 4p</td>
+						</tr>
+					</table>
+				</li>
+				<!-- {{ if isset .Site.Params.contact "email" }}
+				<li>
+					<h3 class="icon fa-envelope"><span class="label"></span></h3>
+					<a href="mailto:{{ .Site.Params.contact.email }}">{{ .Site.Params.contact.email }}</a>
+				</li>
+				{{ end }} -->
+			</ul>
+		</div>
+	</div>
+</section>

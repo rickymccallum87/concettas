@@ -147,3 +147,13 @@ paginate = 10
 	name = "Blog"
 	url  = "post/"
 	weight = 0
+
+[[menu.main]]
+	name = "Menu"
+	url  = "/"
+	weight = 10
+
+[[menu.main]]
+	name = "Catering"
+	url  = "/"
+	weight = 10

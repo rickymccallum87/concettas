@@ -2498,7 +2498,7 @@
 	#footer {
 		bottom: 0;
 		left: 0;
-		padding: 0 4em 6em 0;
+		padding: 0 4em 2em 0;
 		position: fixed;
 		text-align: right;
 		width: 35%;
@@ -2859,7 +2859,7 @@
 		/* Footer */
 
 			#footer {
-				padding: 0 3em 5em 3em;
+				padding: 0 3em 2em 3em;
 				width: 30%;
 			}
 

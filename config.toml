@@ -141,19 +141,19 @@ paginate = 10
 [[menu.main]]
 	name = "Home"
 	url  = "/"
-	weight = 10
+	weight = 0
 
 [[menu.main]]
 	name = "Blog"
 	url  = "post/"
-	weight = 0
+	weight = 1
 
 [[menu.main]]
 	name = "Menu"
-	url  = "/"
-	weight = 10
+	url  = "/#menu"
+	weight = 2
 
 [[menu.main]]
 	name = "Catering"
 	url  = "/"
-	weight = 10
+	weight = 3

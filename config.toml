@@ -50,6 +50,12 @@ paginate = 10
 		title = "Recent blog posts"
 
 
+	[params.cuisine]
+		hide  = false
+		title = "Menu"
+		blurb = "We pride ourselves in offering the freshest menu using the finest available meats and produce."
+
+
 	[params.catering]
 		hide  = false
 		title = "Catering"

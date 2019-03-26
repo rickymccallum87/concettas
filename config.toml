@@ -2,7 +2,6 @@ baseurl = "/"
 languageCode = "en-us"
 title = "Concetta's Main Street Bistro"
 theme = "strata"
-# disqusShortname = "spf13"
 # Enable Google Analytics by inserting your tracking code
 googleAnalytics = ""
 # Define how many posts should appear on a site
@@ -31,14 +30,7 @@ paginate = 10
 		# Use Markdown to format the string. This works nearly all over the theme
 		bio = "**Concetta's Main Street Bistro** <br> Located in historic downtown Mount Airy and open daily at 7:30. We invite you to stop in!"
 		# The icons will be shown if you enter your username
-		# twitter = "spf13"
-		# github = "spf13"
-		# gitlab = "spf13"
-		# dribbble = ""
 		facebook = "Concettas-Mainstreet-Bistro-108116492564016"
-		# googleplus = ""
-		# flickr = ""
-		# linkedin = ""
 		yelp = "concettas-main-steet-bistro-mount-airy"
 		tripadvisor="Restaurant_Review-g41276-d2317412-Reviews-Concetta_s_Mainstreet_Bistro-Mount_Airy_Maryland.html"
 
@@ -53,57 +45,59 @@ paginate = 10
 		content = "Concetta's Main St Bistro, located in historic downtown Mt. Airy, opens daily at 7:30 with a complete breakfast & brunch menu. For lunch, enjoy one of our famously over stuffed sandwiches or subs. Our soups & salads our seasonal, fresh and \"Souper\" Calafrajgalistically delicious. In addition to daily chef inspired creations, customer creativity is welcome and encouraged. Just because you don't see it on our menu doesn't mean we can't make fresh for you. We invite you to stop in for breakfast, brunch, lunch or take home one of our unique oven ready dinners."
 
 
+	[params.recentposts]
+		hide  = false
+		title = "Recent blog posts"
+
+
 	[params.catering]
 		hide  = false
 		title = "Catering"
 		blurb = "We cater parties, weddings and banquets! Plan your event now!"
 
 
-	[params.portfolio]
-		hide  = false
-		title = "Recent Work"
+	# [params.portfolio]
+	# 	hide  = false
+	# 	title = "Recent Work"
 
-		# The images and thumbnails are stored under static/images
-		# Create and change subfolders as you like
-		[[params.portfolio.gallery]]
-			image = "fulls/01.jpg"
-			thumb = "thumbs/01.jpg"
-			title = "Lorem ipsum dolor."
-			description = "Lorem ipsum dolor sit amet."
+	# 	# The images and thumbnails are stored under static/images
+	# 	# Create and change subfolders as you like
+	# 	[[params.portfolio.gallery]]
+	# 		image = "fulls/01.jpg"
+	# 		thumb = "thumbs/01.jpg"
+	# 		title = "Lorem ipsum dolor."
+	# 		description = "Lorem ipsum dolor sit amet."
 
-		[[params.portfolio.gallery]]
-			image = "fulls/02.jpg"
-			thumb = "thumbs/02.jpg"
-			title = "Lorem ipsum dolor."
-			description = "Lorem ipsum dolor sit amet."
+	# 	[[params.portfolio.gallery]]
+	# 		image = "fulls/02.jpg"
+	# 		thumb = "thumbs/02.jpg"
+	# 		title = "Lorem ipsum dolor."
+	# 		description = "Lorem ipsum dolor sit amet."
 
-		[[params.portfolio.gallery]]
-			image = "fulls/03.jpg"
-			thumb = "thumbs/03.jpg"
-			title = "Lorem ipsum dolor."
-			description = "Lorem ipsum dolor sit amet."
+	# 	[[params.portfolio.gallery]]
+	# 		image = "fulls/03.jpg"
+	# 		thumb = "thumbs/03.jpg"
+	# 		title = "Lorem ipsum dolor."
+	# 		description = "Lorem ipsum dolor sit amet."
 
-		[[params.portfolio.gallery]]
-			image = "fulls/04.jpg"
-			thumb = "thumbs/04.jpg"
-			title = "Lorem ipsum dolor."
-			description = "Lorem ipsum dolor sit amet."
+	# 	[[params.portfolio.gallery]]
+	# 		image = "fulls/04.jpg"
+	# 		thumb = "thumbs/04.jpg"
+	# 		title = "Lorem ipsum dolor."
+	# 		description = "Lorem ipsum dolor sit amet."
 
-		[[params.portfolio.gallery]]
-			image = "fulls/05.jpg"
-			thumb = "thumbs/05.jpg"
-			title = "Lorem ipsum dolor."
-			description = "Lorem ipsum dolor sit amet."
+	# 	[[params.portfolio.gallery]]
+	# 		image = "fulls/05.jpg"
+	# 		thumb = "thumbs/05.jpg"
+	# 		title = "Lorem ipsum dolor."
+	# 		description = "Lorem ipsum dolor sit amet."
 
-		[[params.portfolio.gallery]]
-			image = "fulls/06.jpg"
-			thumb = "thumbs/06.jpg"
-			title = "Lorem ipsum dolor."
-			description = "Lorem ipsum dolor sit amet."
+	# 	[[params.portfolio.gallery]]
+	# 		image = "fulls/06.jpg"
+	# 		thumb = "thumbs/06.jpg"
+	# 		title = "Lorem ipsum dolor."
+	# 		description = "Lorem ipsum dolor sit amet."
 
-	[params.recentposts]
-		hide  = false
-		title = "Recent blog posts"
 
 	[params.contact]
 		hide  = false

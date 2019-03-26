@@ -64,9 +64,7 @@
 			</ul>
 		</div>
 		<div class="8u$ 12u$(small)">
-			<header class="major">
-				{{ with .Site.Params.about.title }}<h2>{{ . | markdownify }}</h2>{{ end }}
-			</header>
+			{{ with .Site.Params.about.title }}<h2>{{ . | markdownify }}</h2>{{ end }}
 			{{ with .Site.Params.about.content }}<p>{{ . | markdownify }}</p>{{ end }}
 		</div>
 	</div>

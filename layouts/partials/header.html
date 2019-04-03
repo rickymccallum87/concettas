@@ -7,13 +7,16 @@
 		<h1>{{ . | markdownify }}</h1>
 	{{ end }}
 
-	{{ with .Site.Menus.main }}
-		<nav id="sidebar">
-			<ul>
-			{{ range . }}
-				<li><a href="{{ .URL | absURL }}">{{ .Name }}</a></li>
-			{{ end }}
-			</ul>
-		</nav>
-	{{ end }}
+	<nav id="sidebar">
+		<ul>
+			<li><a href="/">Home</a></li>
+			<!-- <li><a href="/post">Blog</a></li> -->
+			<li><a href="#specials">Specials</a></li>
+			<li><a href="#cuisine">Menu</a></li>
+			<li><a href="#events">Events</a></li>
+			<li><a href="#photos">Photos</a></li>
+			<li><a href="#catering">Catering</a></li>
+			<li><a href="#contact-form">Contact</a></li>
+		</ul>
+	</nav>
 </header>

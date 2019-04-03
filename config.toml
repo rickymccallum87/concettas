@@ -50,59 +50,65 @@ paginate = 10
 		title = "Recent blog posts"
 
 
+	[params.specials]
+		hide  = false
+		title = "Daily and Seasonal Specials"
+		blurb = "Check here often, we always have something exciting happening!"
+
+
 	[params.cuisine]
 		hide  = false
 		title = "Menu"
 		blurb = "We pride ourselves in offering the freshest menu using the finest available meats and produce."
 
 
+	[params.events]
+		hide  = false
+		title = "Events"
+		blurb = "Check here often, we always have something exciting happening!"
+
+
+	[params.photos]
+		hide  = false
+		title = "Photo Gallery"
+
+		# The images and thumbnails are stored under static/images
+		# Create and change subfolders as you like
+		[[params.photos.gallery]]
+			image = "fulls/01.jpg"
+			thumb = "thumbs/01.jpg"
+			description = "Image caption example"
+
+		[[params.photos.gallery]]
+			image = "fulls/02.jpg"
+			thumb = "thumbs/02.jpg"
+			description = "Image caption example"
+
+		[[params.photos.gallery]]
+			image = "fulls/03.jpg"
+			thumb = "thumbs/03.jpg"
+			description = "Image caption example"
+
+		[[params.photos.gallery]]
+			image = "fulls/04.jpg"
+			thumb = "thumbs/04.jpg"
+			description = "Image caption example"
+
+		[[params.photos.gallery]]
+			image = "fulls/05.jpg"
+			thumb = "thumbs/05.jpg"
+			description = "Image caption example"
+
+		[[params.photos.gallery]]
+			image = "fulls/06.jpg"
+			thumb = "thumbs/06.jpg"
+			description = "Image caption example"
+
+
 	[params.catering]
 		hide  = false
 		title = "Catering"
 		blurb = "We cater parties, weddings and banquets! Plan your event now!"
-
-
-	# [params.portfolio]
-	# 	hide  = false
-	# 	title = "Recent Work"
-
-	# 	# The images and thumbnails are stored under static/images
-	# 	# Create and change subfolders as you like
-	# 	[[params.portfolio.gallery]]
-	# 		image = "fulls/01.jpg"
-	# 		thumb = "thumbs/01.jpg"
-	# 		title = "Lorem ipsum dolor."
-	# 		description = "Lorem ipsum dolor sit amet."
-
-	# 	[[params.portfolio.gallery]]
-	# 		image = "fulls/02.jpg"
-	# 		thumb = "thumbs/02.jpg"
-	# 		title = "Lorem ipsum dolor."
-	# 		description = "Lorem ipsum dolor sit amet."
-
-	# 	[[params.portfolio.gallery]]
-	# 		image = "fulls/03.jpg"
-	# 		thumb = "thumbs/03.jpg"
-	# 		title = "Lorem ipsum dolor."
-	# 		description = "Lorem ipsum dolor sit amet."
-
-	# 	[[params.portfolio.gallery]]
-	# 		image = "fulls/04.jpg"
-	# 		thumb = "thumbs/04.jpg"
-	# 		title = "Lorem ipsum dolor."
-	# 		description = "Lorem ipsum dolor sit amet."
-
-	# 	[[params.portfolio.gallery]]
-	# 		image = "fulls/05.jpg"
-	# 		thumb = "thumbs/05.jpg"
-	# 		title = "Lorem ipsum dolor."
-	# 		description = "Lorem ipsum dolor sit amet."
-
-	# 	[[params.portfolio.gallery]]
-	# 		image = "fulls/06.jpg"
-	# 		thumb = "thumbs/06.jpg"
-	# 		title = "Lorem ipsum dolor."
-	# 		description = "Lorem ipsum dolor sit amet."
 
 
 	[params.contact]
@@ -129,7 +135,8 @@ paginate = 10
 	    # - send a dummy email yourself to confirm your account
 	    # - click the confirm link in the email from www.formspree.io
 	    # - you're done. Happy mailing!
-		email = "concettas@verizon.net"
+		# email = "concettas@verizon.net"
+		email = ""
 
 		[params.contact.form]
 			# Set custom strings for the form if your native
@@ -141,25 +148,3 @@ paginate = 10
 
 	[params.rss]
 		hide = true
-
-
-# Menu links that appear on the left sidebar
-[[menu.main]]
-	name = "Home"
-	url  = "/"
-	weight = 1
-
-[[menu.main]]
-	name = "Blog"
-	url  = "post/"
-	weight = 2
-
-[[menu.main]]
-	name = "Menu"
-	url  = "/#menu"
-	weight = 3
-
-[[menu.main]]
-	name = "Catering"
-	url  = "/#catering"
-	weight = 4

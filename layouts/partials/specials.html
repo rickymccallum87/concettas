@@ -1,9 +1,9 @@
-{{ "<!-- Cuisine -->" | safeHTML }}
-<section id="cuisine">
-	{{ with .Site.Params.cuisine.title }}<h2>{{ . | markdownify }}</h2>{{ end }}
-	{{ with .Site.Params.cuisine.blurb }}<p>{{ . | markdownify }}</p>{{ end }}
+{{ "<!-- Specials -->" | safeHTML }}
+<section id="specials">
+	{{ with .Site.Params.specials.title }}<h2>{{ . | markdownify }}</h2>{{ end }}
+	{{ with .Site.Params.specials.blurb }}<p>{{ . | markdownify }}</p>{{ end }}
 	<div class="row">
-		{{ range .Site.Params.cuisine.gallery }}
+		{{ range .Site.Params.specials.gallery }}
 		<article class="6u 12u$(xsmall) work-item">
 			<a href="{{ $.Site.BaseURL }}images/{{ .image }}" class="image fit thumb"><img src="{{ $.Site.BaseURL }}images/{{ .thumb }}" alt="" /></a>
 			<h3>{{ .title | markdownify }}</h3>

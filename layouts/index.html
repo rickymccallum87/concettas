@@ -3,15 +3,15 @@
 		{{ partial "about" . }}
 	{{ end }}
 
-	<!-- {{ if not .Site.Params.portfolio.hide }}
-		{{ partial "portfolio" . }}
-	{{ end }} -->
+	<!-- {{ partial "recent-posts" . }} -->
 
-	{{ if not .Site.Params.recentposts.hide }}
-		{{ partial "recent-posts" . }}
-	{{ end }}
+	{{ partial "specials" . }}
 
 	{{ partial "cuisine" . }}
+
+	{{ partial "events" . }}
+
+	{{ partial "photos" . }}
 
 	{{ partial "catering" . }}
 

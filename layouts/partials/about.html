@@ -1,6 +1,10 @@
 <section>
 	<div class="row">
-		<div class="4u 12u$(small)">
+		<div class="8u 12u$(small)">
+			{{ with .Site.Params.about.title }}<h2>{{ . | markdownify }}</h2>{{ end }}
+			{{ with .Site.Params.about.content }}<p>{{ . | markdownify }}</p>{{ end }}
+		</div>
+		<div class="4u$ 12u$(small)">
 			<ul class="labeled-icons">
 				{{ if isset .Site.Params.contact "address" }}
 				<li>
@@ -62,10 +66,6 @@
 				</li>
 				{{ end }} -->
 			</ul>
-		</div>
-		<div class="8u$ 12u$(small)">
-			{{ with .Site.Params.about.title }}<h2>{{ . | markdownify }}</h2>{{ end }}
-			{{ with .Site.Params.about.content }}<p>{{ . | markdownify }}</p>{{ end }}
 		</div>
 	</div>
 </section>

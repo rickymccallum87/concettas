@@ -94,15 +94,15 @@ paginate = 10
 			thumb = "thumbs/04.jpg"
 			description = "Image caption example"
 
-		[[params.photos.gallery]]
-			image = "fulls/05.jpg"
-			thumb = "thumbs/05.jpg"
-			description = "Image caption example"
+		# [[params.photos.gallery]]
+		# 	image = "fulls/05.jpg"
+		# 	thumb = "thumbs/05.jpg"
+		# 	description = "Image caption example"
 
-		[[params.photos.gallery]]
-			image = "fulls/06.jpg"
-			thumb = "thumbs/06.jpg"
-			description = "Image caption example"
+		# [[params.photos.gallery]]
+		# 	image = "fulls/06.jpg"
+		# 	thumb = "thumbs/06.jpg"
+		# 	description = "Image caption example"
 
 
 	[params.catering]
@@ -136,7 +136,7 @@ paginate = 10
 	    # - click the confirm link in the email from www.formspree.io
 	    # - you're done. Happy mailing!
 		# email = "concettas@verizon.net"
-		email = ""
+		email = "mail@example.com"
 
 		[params.contact.form]
 			# Set custom strings for the form if your native

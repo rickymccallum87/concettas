@@ -1,6 +1,6 @@
 ---
 title: "Today's Soups"
-date: 2019-03-21T011:45:00-04:00
+date: 2019-03-21T11:45:00-04:00
 draft: false
 ---
 

@@ -1,7 +1,5 @@
 {{ define "main" }}
-	{{ if not .Site.Params.about.hide }}
-		{{ partial "about" . }}
-	{{ end }}
+	{{ partial "about" . }}
 
 	<!-- {{ partial "recent-posts" . }} -->
 
@@ -15,7 +13,5 @@
 
 	{{ partial "catering" . }}
 
-	{{ if not .Site.Params.contact.hide }}
-		{{ partial "contact" . }}
-	{{ end }}
+	{{ partial "contact" . }}
 {{ end }}

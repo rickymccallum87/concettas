@@ -1,10 +1,10 @@
 <!-- Three -->
-<section>
+<section id="contact">
 	{{ if isset .Site.Params.contact "email" }}
 		{{ with .Site.Params.contact.title }}<h2>{{ . }}</h2>{{ end }}
 		{{ with .Site.Params.contact.content }}<p>{{ . | markdownify }}</p>{{ end }}
 	{{ end }}
-	<div class="row" id="contact-form">
+	<div class="row">
 		{{ if (isset .Site.Params.contact "email") | and (gt (len .Site.Params.contact.email) 0) }}
 		<div class="8u 12u$(small)">
 			<form action="//formspree.io/{{ .Site.Params.contact.email }}" method="POST">

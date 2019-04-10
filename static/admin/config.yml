@@ -20,10 +20,10 @@ collections:
     create: false
     files:
       - file: "site/section/about.yml"
-      fields:
-        - {label: "Title", name: "title", widget: "string"}
-        - {label: "Body", name: "body", widget: "markdown"}
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Body", name: "body", widget: "markdown"}
       # - file: "site/section/contact.yml"
-      # fields:
-      #   - {label: "Title", name: "title", widget: "string"}
-      #   - {label: "Body", name: "body", widget: "markdown"}
+        # fields:
+        #   - {label: "Title", name: "title", widget: "string"}
+        #   - {label: "Body", name: "body", widget: "markdown"}

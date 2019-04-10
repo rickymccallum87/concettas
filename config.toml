@@ -117,11 +117,11 @@ paginate = 10
 		content = "Call us anytime! If you have questions or comments, please share them with us below."
 
 		# This can be exact coordinates or a searchable address in google maps
-		gmaps_address = "231 S Main St, Mt Airy, MD 21771"
-		address = [
-			"231 South Main Street",
-			"Mount Airy, MD 21771"
-		]
+		# gmaps_address = "231 S Main St, Mt Airy, MD 21771"
+		# address = [
+			# "231 South Main Street",
+			# "Mount Airy, MD 21771"
+		# ]
 		phone = "301-829-7571"
 
 		# Since this template is static, the contact form uses www.formspree.io as a

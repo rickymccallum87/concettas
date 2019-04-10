@@ -1,23 +1,18 @@
 <section>
 	<div class="row">
 		<div class="8u 12u$(small)">
-			<h2>{{ .heading | markdownify }}</h2>
+			<h2>{{ .heading }}</h2>
 			<p>{{ .text | markdownify }}</p>
 		</div>
 		<div class="4u$ 12u$(small)">
 			<ul class="labeled-icons">
-				{{ if isset .Site.Params.contact "address" }}
 				<li>
 					<h3 class="icon fa-map-marker"><span class="label"></span></h3>
-					{{ if isset .Site.Params.contact "gmaps_address" }}
-					<a href="https://maps.google.com/?q={{ .Site.Params.contact.gmaps_address}}">
+					<a href="https://maps.google.com/?q={{ .gmaps }}">
 					{{ end }}
-					{{ range .Site.Params.contact.address }}
-						{{ . }}<br />
-					{{ end }}
-					{{ if isset .Site.Params.contact "gmaps_address" }}
+						{{ .address1 }}<br />
+						{{ .address2 }}
 					</a>
-					{{ end }}
 				</li>
 				{{ end }}
 				{{ if isset .Site.Params.contact "phone" }}

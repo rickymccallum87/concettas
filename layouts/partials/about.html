@@ -9,12 +9,10 @@
 				<li>
 					<h3 class="icon fa-map-marker"><span class="label"></span></h3>
 					<a href="https://maps.google.com/?q={{ .gmaps }}">
-					{{ end }}
 						{{ .address1 }}<br />
 						{{ .address2 }}
 					</a>
 				</li>
-				{{ end }}
 				{{ if isset .Site.Params.contact "phone" }}
 				<li>
 					<h3 class="icon fa-phone"><span class="label"></span></h3>

@@ -1,5 +1,6 @@
 ---
 about:
-    heading: About
-    text: Welcome!
+  heading: About Us
+  text: Welcome!
 ---
+

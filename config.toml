@@ -122,7 +122,7 @@ paginate = 10
 			# "231 South Main Street",
 			# "Mount Airy, MD 21771"
 		# ]
-		phone = "301-829-7571"
+		# phone = "301-829-7571"
 
 		# Since this template is static, the contact form uses www.formspree.io as a
 		# proxy. The form makes a POST request to their servers to send the actual

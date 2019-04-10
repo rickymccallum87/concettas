@@ -5,5 +5,6 @@ about:
   gmaps: https://goo.gl/maps/Md1pfGAk91o
   address1: 231 South Main Street
   address2: Mount Airy, MD 21771
+  phone: 301-829-7571
 ---
 

@@ -13,12 +13,10 @@
 						{{ .address2 }}
 					</a>
 				</li>
-				{{ if isset .Site.Params.contact "phone" }}
 				<li>
 					<h3 class="icon fa-phone"><span class="label"></span></h3>
-					<a href="tel:{{ .Site.Params.contact.phone | replaceRE "[\\s-]" "$1" }}">{{ .Site.Params.contact.phone }}</a>
+					<a href="tel:{{ .phone | replaceRE "[\\s-]" "$1" }}">{{ .phone }}</a>
 				</li>
-				{{ end }}
 				<li>
 					<h3 class="icon fa-clock-o"><span class="label"></span></h3>
 					<table id="hours">
@@ -52,12 +50,10 @@
 						</tr>
 					</table>
 				</li>
-				<!-- {{ if isset .Site.Params.contact "email" }}
-				<li>
+				<!-- <li>
 					<h3 class="icon fa-envelope"><span class="label"></span></h3>
-					<a href="mailto:{{ .Site.Params.contact.email }}">{{ .Site.Params.contact.email }}</a>
-				</li>
-				{{ end }} -->
+					<a href="mailto:{{ .email }}">{{ .email }}</a>
+				</li> -->
 			</ul>
 		</div>
 	</div>

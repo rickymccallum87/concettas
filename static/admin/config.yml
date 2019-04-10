@@ -5,8 +5,8 @@ media_folder: "static/img/uploads" # Where media files will be stored
 public_folder: "/img/uploads" # Start of the src attribute for uploaded media
 
 collections:
-  - name: "post" # Used in routes, e.g., /admin/collections/blog
-    label: "Post" # Used in the UI
+  - label: "Post" # Used in the UI
+    name: "post" # Used in routes, e.g., /admin/collections/blog
     folder: "content/post" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
@@ -15,15 +15,14 @@ collections:
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Body", name: "body", widget: "markdown"}
 
-  - name: "section" # Used in routes, e.g., /admin/collections/blog
-    label: "Section" # UI
+  - label: "Sections" # UI
+    name: "sections" # Used in routes, e.g., /admin/collections/blog
     create: false
     files:
-      - file: "site/section/about.yml"
+      - file: "site/content/_index.md"
+        label: "About"
+        name: "about"
         fields:
-          - {label: "Title", name: "title", widget: "string"}
-          - {label: "Body", name: "body", widget: "markdown"}
-      # - file: "site/section/contact.yml"
-        # fields:
-        #   - {label: "Title", name: "title", widget: "string"}
-        #   - {label: "Body", name: "body", widget: "markdown"}
+          - {label: "About", name: about, widget: object, fields: [
+              {label: "Heading", name: "heading", widget: "string"}
+              {label: "Text", name: "text", widget: "markdown"}]}

@@ -19,7 +19,7 @@ collections:
     name: "sections" # Used in routes, e.g., /admin/collections/blog
     create: false
     files:
-      - file: "site/content/_index.md"
+      - file: "content/_index.md"
         label: "About"
         name: "about"
         fields:

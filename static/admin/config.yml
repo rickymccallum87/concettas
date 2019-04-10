@@ -15,12 +15,15 @@ collections:
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Body", name: "body", widget: "markdown"}
 
-  # - name: "section" # Used in routes, e.g., /admin/collections/blog
-  #   label: "Section" # UI
-  #   create: false
-  #   files:
-  #     - file: "site/content/"
-  #     slug: "{{slug}}"
-  #     fields:
-  #       - {label: "Title", name: "title", widget: "string"}
-  #       - {label: "Body", name: "body", widget: "markdown"}
+  - name: "section" # Used in routes, e.g., /admin/collections/blog
+    label: "Section" # UI
+    create: false
+    files:
+      - file: "site/section/about.yml"
+      fields:
+        - {label: "Title", name: "title", widget: "string"}
+        - {label: "Body", name: "body", widget: "markdown"}
+      # - file: "site/section/contact.yml"
+      # fields:
+      #   - {label: "Title", name: "title", widget: "string"}
+      #   - {label: "Body", name: "body", widget: "markdown"}

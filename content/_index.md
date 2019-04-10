@@ -10,10 +10,10 @@ about:
     encouraged. Just because you don't see it on our menu doesn't mean we can't
     make fresh for you. We invite you to stop in for breakfast, brunch, lunch or
     take home one of our unique oven ready dinners.
-gmaps: 'https://goo.gl/maps/Md1pfGAk91o'
-address:
-  address1: 231 South Main Street
-  address2: 'Mount Airy, MD 21771'
-phone: 301-829-7571
+    gmaps: 'https://goo.gl/maps/Md1pfGAk91o'
+    address:
+        line1: 231 South Main Street
+        line2: 'Mount Airy, MD 21771'
+    phone: 301-829-7571
 ---
 

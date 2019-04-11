@@ -13,7 +13,7 @@ about:
   address:
     line1: 231 South Main Street
     line2: 'Mount Airy, MD 21771'
-  gmaps: 'https://goo.gl/maps/Md1pfGAk91o'
+    gmaps: 'https://goo.gl/maps/Md1pfGAk91o'
   phone: 301-829-7571
   hours:
     sun: 7:30a - 3p

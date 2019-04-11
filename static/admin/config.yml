@@ -25,7 +25,7 @@ collections:
         fields:
           - {label: "About", name: about, widget: object, fields: [
               {label: "Heading", name: "heading", widget: "string"}, 
-              {label: "Text", name: "text", widget: "string"},
+              {label: "Text", name: "text", widget: "markdown"},
               {label: "Google Maps", name: gmaps, widget: "string"},
               {label: "Address", name: address, widget: object, fields: [
                 {label: "Line 1", name: "line1", widget: "string"}, 

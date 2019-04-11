@@ -1,8 +1,8 @@
 <section>
 	<div class="row">
 		<div class="8u 12u$(small)">
-			<h2>{{ .heading }}</h2>
-			<p>{{ .text }}</p>
+			<h2>{{ .heading | markdownify }}</h2>
+			<p>{{ .text | markdownify }}</p>
 		</div>
 		<div class="4u$ 12u$(small)">
 			<ul class="labeled-icons">

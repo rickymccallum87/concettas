@@ -7,5 +7,13 @@ about:
     line1: 231 South Main Street
     line2: 'Mount Airy, MD 21771'
   phone: 301-829-7571
+  hours:
+    sun: 7:30a - 3p
+    mon: 7:30a - 4p
+    tue: 7:30a - 4p
+    wed: 7:30a - 4p
+    thu: 7:30a - 6p
+    fri: 7:30a - 4p
+    sat: 7:30a - 4p
 ---
 

@@ -31,3 +31,11 @@ collections:
                 {label: "Line 1", name: "line1", widget: "string"}, 
                 {label: "Line 2", name: "line2", widget: "string"}]},
               {label: "Phone", name: phone, widget: "string"}]}
+              {label: "Hours", name: hours, widget: object, fields: [
+                {label: "Sunday", name: "sun", widget: "string"}, 
+                {label: "Monday", name: "mon", widget: "string"}, 
+                {label: "Tuesday", name: "tue", widget: "string"}, 
+                {label: "Wednesday", name: "wed", widget: "string"}, 
+                {label: "Thursday", name: "thu", widget: "string"}, 
+                {label: "Friday", name: "fri", widget: "string"}, 
+                {label: "Saturday", name: "sat", widget: "string"}]}

@@ -30,7 +30,7 @@ collections:
                 {label: "Line 1", name: "line1", widget: "string"}, 
                 {label: "Line 2", name: "line2", widget: "string"},
                 {label: "Google Maps", name: gmaps, widget: "string"}]},
-              {label: "Phone", name: phone, widget: "string"}]}
+              {label: "Phone", name: phone, widget: "string"}]},
               {label: "Hours", name: hours, widget: object, fields: [
                 {label: "Sunday", name: "sun", widget: "string"}, 
                 {label: "Monday", name: "mon", widget: "string"}, 

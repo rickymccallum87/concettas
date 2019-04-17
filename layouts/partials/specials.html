@@ -2,7 +2,7 @@
 <section id="specials">
 	<h2>{{ .heading | markdownify }}</h2>
 	<p>{{ .text | markdownify }}</p>
-	<div class="row">
+	<!-- <div class="row">
 		{{ range .Site.Params.specials.gallery }}
 		<article class="6u 12u$(xsmall) work-item">
 			<a href="{{ $.Site.BaseURL }}images/{{ .image }}" class="image fit thumb"><img src="{{ $.Site.BaseURL }}images/{{ .thumb }}" alt="" /></a>
@@ -10,5 +10,5 @@
 			<p>{{ .description | markdownify }}</p>
 		</article>
 		{{ end }}
-	</div>
+	</div> -->
 </section>

@@ -15,8 +15,8 @@ collections:
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Body", name: "body", widget: "markdown"}
 
-  - label: "Sections" # UI
-    name: "sections" # Used in routes, e.g., /admin/collections/blog
+  - label: "Homepage" # UI
+    name: "homepage" # Used in routes, e.g., /admin/collections/blog
     create: false
     files:
       - file: "content/_index.md"
@@ -40,11 +40,7 @@ collections:
                 {label: "Friday", name: "fri", widget: "string"}, 
                 {label: "Saturday", name: "sat", widget: "string"}]}
           ]}
-      - file: "content/_index.md"
-        label: "Menu"
-        name: "cuisine"
-        fields:
-          - {label: "Menu", name: cuisine, widget: object, fields: [
+          - {label: "Specials", name: specials, widget: object, fields: [
               {label: "Heading", name: "heading", widget: "string"}, 
               {label: "Text", name: "text", widget: "markdown"}
           ]}

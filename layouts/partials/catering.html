@@ -1,4 +1,4 @@
 <section id="catering">
-	{{ with .Site.Params.catering.title }}<h2>{{ . | markdownify }}</h2>{{ end }}
-	{{ with .Site.Params.catering.blurb }}<p>{{ . | markdownify }}</p>{{ end }}
+	<h1>{{ .heading }}</h1>
+	<p>{{ .text | markdownify }}</p>
 </section>

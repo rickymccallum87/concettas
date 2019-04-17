@@ -5,13 +5,13 @@
 
 	{{ partial "specials" .Params.specials }}
 
-	{{ partial "cuisine" . }}
+	{{ partial "menu" .Params.menu }}
 
-	{{ partial "events" . }}
+	{{ partial "events" .Params.events }}
 
-	{{ partial "photos" . }}
+	<!-- {{ partial "photos" . }} -->
 
-	{{ partial "catering" . }}
+	{{ partial "catering" .Params.catering }}
 
-	{{ partial "contact" . }}
+	{{ partial "contact" .Params.contact }}
 {{ end }}

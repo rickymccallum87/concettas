@@ -43,6 +43,9 @@ cuisine:
   text: >-
     We pride ourselves in offering the freshest menu using the finest available
     meats and produce.
+
+
+    ## [View Menu](/img/uploads/concettas-menu.pdf)
 events:
   heading: Events
   text: 'Check here often, we always have something exciting happening!'

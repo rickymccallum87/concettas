@@ -24,7 +24,21 @@ about:
     make fresh for you. We invite you to stop in for breakfast, brunch, lunch or
     take home one of our unique oven ready dinners.
 specials:
-  heading: Daily and Seasonal Specials - test
-  text: 'Check here often, we always have something exciting happening! - test'
+  heading: Daily and Seasonal Specials
+  text: |-
+    Check here often, we always have something exciting happening!
+
+
+
+    ## Special: Coffee 2 for 1
+
+    Here are the special details.
+
+    * 2 for 1 from 7:30am to noon
+    * Great selection
+
+    ## Heading 2
+
+    Another special here!
 ---
 

@@ -1,7 +1,7 @@
 {{ "<!-- Specials -->" | safeHTML }}
 <section id="specials">
-	{{ with .Site.Params.specials.title }}<h2>{{ . | markdownify }}</h2>{{ end }}
-	{{ with .Site.Params.specials.blurb }}<p>{{ . | markdownify }}</p>{{ end }}
+	<h2>{{ .heading | markdownify }}</h2>
+	<p>{{ .text | markdownify }}</p>
 	<div class="row">
 		{{ range .Site.Params.specials.gallery }}
 		<article class="6u 12u$(xsmall) work-item">

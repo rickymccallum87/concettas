@@ -54,7 +54,7 @@ catering:
   text: |-
     We cater parties, weddings and banquets! Plan your event now!
 
-    ## [View Catering Menu](/img/uploads/catering-menu.pdf)
+    ## [View Catering Menu](/img/uploads/concettas-catering.pdf)
 contact:
   email: email@example.com
   heading: Get In Touch

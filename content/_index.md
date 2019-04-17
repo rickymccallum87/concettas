@@ -51,7 +51,10 @@ events:
   text: 'Check here often, we always have something exciting happening!'
 catering:
   heading: Catering
-  text: 'We cater parties, weddings and banquets! Plan your event now!'
+  text: |-
+    We cater parties, weddings and banquets! Plan your event now!
+
+    ## [View Catering Menu](/img/uploads/catering-menu.pdf)
 contact:
   email: email@example.com
   heading: Get In Touch

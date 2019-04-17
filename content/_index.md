@@ -40,5 +40,22 @@ specials:
     ## Heading 2
 
     Another special here!
+menu:
+  heading: Menu
+  text: >-
+    We pride ourselves in offering the freshest menu using the finest available
+    meats and produce.
+events:
+  heading: Events
+  text: 'Check here often, we always have something exciting happening!'
+catering:
+  heading: Catering
+  text: 'We cater parties, weddings and banquets! Plan your event now!'
+contact:
+  email: email@example.com
+  heading: Get In Touch
+  text: >-
+    Call us anytime! If you have questions or comments, please share them with
+    us below.
 ---
 

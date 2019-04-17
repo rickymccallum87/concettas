@@ -28,8 +28,6 @@ specials:
   text: |-
     Check here often, we always have something exciting happening!
 
-
-
     ## Special: Coffee 2 for 1
 
     Here are the special details.

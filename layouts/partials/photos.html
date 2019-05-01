@@ -1,6 +1,6 @@
-{{ "<!-- photos -->" | safeHTML }}
+{{ "<!-- Photos -->" | safeHTML }}
 <section id="photos">
-	{{ with .Site.Params.photos.title }}<h2>{{ . | markdownify }}</h2>{{ end }}
+	<h2>{{ .title | markdownify }}</h2>
 	<div class="row">
 		{{ range .Site.Params.photos.gallery }}
 		<article class="6u 12u$(xsmall) work-item">

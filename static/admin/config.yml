@@ -63,7 +63,6 @@ collections:
                     {label: "Photo", name: "photo", widget: "image"},
                     {label: "Caption", name: "caption", widget: "string"}
                   ]}
-              }
           ]}
           - {label: "Contact", name: "contact", widget: object, fields: [
               {label: "Heading", name: "heading", widget: "string"}, 

@@ -5,7 +5,7 @@
 		{{ range .photo }}
 		<article class="6u 12u$(xsmall) work-item">
 			<a href="{{ .photo }}" class="image fit thumb"><img src="{{ .photo }}" alt="" /></a>
-			<!-- <h3>{{ .description | markdownify }}</h3> -->
+			<h3>{{ .caption | markdownify }}</h3>
 		</article>
 		{{ end }}
 	</div>

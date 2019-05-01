@@ -58,8 +58,6 @@ catering:
     ## [View Catering Menu](/img/uploads/concettas-catering.pdf)
 photos:
   heading: Photo Gallery
-  image:
-    - /img/uploads/street.jpg
 contact:
   email: email@example.com
   heading: Get In Touch

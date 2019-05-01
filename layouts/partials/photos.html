@@ -1,10 +1,10 @@
 {{ "<!-- Photos -->" | safeHTML }}
 <section id="photos">
-	<h1>Photo Gallery</h1>
+	<h1>{{ .heading }}</h1>
 	<div class="row">
-		{{ range . }}
+		{{ range .gallery }}
 		<article class="6u 12u$(xsmall) work-item">
-			<a href="{{ $.Site.BaseURL }}img/{{ .image }}" class="image fit thumb"><img src="{{ $.Site.BaseURL }}img/{{ .image }}" alt="" /></a>
+			<a href="{{ .image }}" class="image fit thumb"><img src="{{ .image }}" alt="" /></a>
 			<!-- <h3>{{ .description | markdownify }}</h3> -->
 		</article>
 		{{ end }}

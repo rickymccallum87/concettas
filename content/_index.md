@@ -25,19 +25,48 @@ about:
     take home one of our unique oven ready dinners.
 specials:
   heading: Daily and Seasonal Specials
-  text: |-
+  text: >-
     Check here often, we always have something exciting happening!
 
-    ## Special: Coffee 2 for 1
 
-    Here are the special details.
+    ## Spring Daily Specials
 
-    * 2 for 1 from 7:30am to noon
-    * Great selection
 
-    ## Heading 2
+    _Take $2.00 off our featured spring item of the day_
 
-    Another special here!
+
+    **Monday - Toasted Italian**
+
+
+    Spicy Genoa, Capicola, Sopressata, Provolone, Pesto, Lettuce, Tomato, Onion,
+    Oil and Vinegar, Served on a Sub Roll, Toasted to Perfection.
+
+
+    **Tuesday - Concetta's Cuban**
+
+
+    Deli Ham, Smoked Ham, Pickle, Swiss, Pepper Jack, Cuban Mustard, Sliced
+    Italian, Served Panini Style
+
+
+    **Wednesday - Bacon Guacamole Grilled Cheese**
+
+
+    Bacon, Guacamole, Cheddar Cheese, Tomato, Served on your choice of bread
+
+
+    **Thursday - Chicken Hummus Wrap**
+
+
+    Grilled Chicken, Hummus, Spinach, Tomato, Onion, Cucumber, Served on Spinach
+    or Plain Wrap
+
+
+    **Friday - Asian Salad**
+
+
+    Spinach, Romaine, Wonton Strips, Mandarin Oranges, Almonds, Red Onion,
+    Mandarin Orange Dressing, Served with Chicken, Shrimp, or Salmon
 cuisine:
   heading: Menu
   text: >-

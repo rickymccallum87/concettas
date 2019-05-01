@@ -38,14 +38,14 @@ specials:
     ## Heading 2
 
     Another special here!
-cuisine:
+menu:
   heading: Menu
   text: >-
     We pride ourselves in offering the freshest menu using the finest available
     meats and produce.
 
 
-    [View
+    ## [View
     Menu](https://concettas.rickymccallum.com/img/uploads/concettas-menu.pdf)
 events:
   heading: Events
@@ -56,6 +56,11 @@ catering:
     We cater parties, weddings and banquets! Plan your event now!
 
     ## [View Catering Menu](/img/uploads/concettas-catering.pdf)
+photos:
+  gallery:
+    - /img/uploads/street.jpg
+    - /img/uploads/outside-seating.jpg
+  heading: Photo Gallery
 contact:
   email: email@example.com
   heading: Get In Touch

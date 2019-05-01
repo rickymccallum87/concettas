@@ -2,9 +2,9 @@
 <section id="photos">
 	<h1>{{ .heading }}</h1>
 	<div class="row">
-		{{ range .gallery }}
+		{{ range .photo }}
 		<article class="6u 12u$(xsmall) work-item">
-			<a href="{{ .image }}" class="image fit thumb"><img src="{{ .image }}" alt="" /></a>
+			<a href="{{ .photo }}" class="image fit thumb"><img src="{{ .photo }}" alt="" /></a>
 			<!-- <h3>{{ .description | markdownify }}</h3> -->
 		</article>
 		{{ end }}

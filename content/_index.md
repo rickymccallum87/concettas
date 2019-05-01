@@ -56,11 +56,6 @@ catering:
     We cater parties, weddings and banquets! Plan your event now!
 
     ## [View Catering Menu](/img/uploads/concettas-catering.pdf)
-photos:
-  image:
-    - /img/uploads/street.jpg
-    - /img/uploads/outside-seating.jpg
-  heading: Photo Gallery
 contact:
   email: email@example.com
   heading: Get In Touch

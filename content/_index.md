@@ -76,7 +76,7 @@ events:
   text: |-
     > Check here often, we always have something exciting happening!
 
-    **Monday 4/29**\
+    **Monday, April 29**\
     Save $3 on our Famous Meatball sub!
 catering:
   heading: Catering

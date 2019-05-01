@@ -57,7 +57,7 @@ catering:
 
     ## [View Catering Menu](/img/uploads/concettas-catering.pdf)
 photos:
-  gallery:
+  image:
     - /img/uploads/street.jpg
     - /img/uploads/outside-seating.jpg
   heading: Photo Gallery

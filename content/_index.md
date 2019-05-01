@@ -38,7 +38,7 @@ specials:
     ## Heading 2
 
     Another special here!
-cuisine:
+menu:
   heading: Menu
   text: >-
     We pride ourselves in offering the freshest menu using the finest available

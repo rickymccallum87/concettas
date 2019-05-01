@@ -26,44 +26,39 @@ about:
 specials:
   heading: Daily and Seasonal Specials
   text: >-
-    Check here often, we always have something exciting happening!
+    > Check here often, we always have something exciting happening!
 
 
     ## Spring Daily Specials
 
 
-    _Take $2.00 off our featured spring item of the day_
+    Take $2.00 off our featured spring item of the day
 
 
-    **Monday - Toasted Italian**
-
+    **Monday - Toasted Italian**\
 
     Spicy Genoa, Capicola, Sopressata, Provolone, Pesto, Lettuce, Tomato, Onion,
     Oil and Vinegar, Served on a Sub Roll, Toasted to Perfection.
 
 
-    **Tuesday - Concetta's Cuban**
-
+    **Tuesday - Concetta's Cuban**\
 
     Deli Ham, Smoked Ham, Pickle, Swiss, Pepper Jack, Cuban Mustard, Sliced
     Italian, Served Panini Style
 
 
-    **Wednesday - Bacon Guacamole Grilled Cheese**
-
+    **Wednesday - Bacon Guacamole Grilled Cheese**\
 
     Bacon, Guacamole, Cheddar Cheese, Tomato, Served on your choice of bread
 
 
-    **Thursday - Chicken Hummus Wrap**
-
+    **Thursday - Chicken Hummus Wrap**\
 
     Grilled Chicken, Hummus, Spinach, Tomato, Onion, Cucumber, Served on Spinach
     or Plain Wrap
 
 
-    **Friday - Asian Salad**
-
+    **Friday - Asian Salad**\
 
     Spinach, Romaine, Wonton Strips, Mandarin Oranges, Almonds, Red Onion,
     Mandarin Orange Dressing, Served with Chicken, Shrimp, or Salmon
@@ -78,7 +73,11 @@ cuisine:
     Menu](https://concettas.rickymccallum.com/img/uploads/concettas-menu.pdf)
 events:
   heading: Events
-  text: 'Check here often, we always have something exciting happening!'
+  text: |-
+    > Check here often, we always have something exciting happening!
+
+    **Monday 4/29**\
+    Save $3 on our Famous Meatball sub!
 catering:
   heading: Catering
   text: |-

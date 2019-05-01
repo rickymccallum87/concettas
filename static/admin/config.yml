@@ -58,8 +58,8 @@ collections:
           ]}
           - {label: "Photos", name: photos, widget: object, fields: [
               {label: "Heading", name: "heading", widget: "string"}, 
-              {label: "Gallery", name: "gallery", widget: "list",
-                field: {label: "Image", name: "image", widget: "image"} 
+              {label: "Photo", name: "photo", widget: "list",
+                field: {label: "Photo", name: "photo", widget: "image"} 
               }
           ]}
           - {label: "Contact", name: "contact", widget: object, fields: [

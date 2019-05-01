@@ -5,15 +5,15 @@ media_folder: "static/img/uploads" # Where media files will be stored
 public_folder: "/img/uploads" # Start of the src attribute for uploaded media
 
 collections:
-  - label: "Post" # Used in the UI
-    name: "post" # Used in routes, e.g., /admin/collections/blog
-    folder: "content/post" # The path to the folder where the documents are stored
-    create: true # Allow users to create new documents in this collection
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
-    fields: # The fields for each document, usually in front matter
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Body", name: "body", widget: "markdown"}
+  # - label: "Post" # Used in the UI
+  #   name: "post" # Used in routes, e.g., /admin/collections/blog
+  #   folder: "content/post" # The path to the folder where the documents are stored
+  #   create: true # Allow users to create new documents in this collection
+  #   slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+  #   fields: # The fields for each document, usually in front matter
+  #     - {label: "Title", name: "title", widget: "string"}
+  #     - {label: "Publish Date", name: "date", widget: "datetime"}
+  #     - {label: "Body", name: "body", widget: "markdown"}
 
   - label: "Homepage" # UI
     name: "homepage" # Used in routes, e.g., /admin/collections/blog

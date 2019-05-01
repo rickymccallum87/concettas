@@ -2,11 +2,11 @@
 <section id="photos">
 	<h1>{{ .heading }}</h1>
 	<div class="row">
-		<!-- {{ range .image }}
+		{{ range .gallery }}
 		<article class="6u 12u$(xsmall) work-item">
 			<a href="{{ .image }}" class="image fit thumb"><img src="{{ .image }}" alt="" /></a>
-			<h3>{{ .description | markdownify }}</h3>
+			<!-- <h3>{{ .description | markdownify }}</h3> -->
 		</article>
-		{{ end }} -->
+		{{ end }}
 	</div>
 </section>

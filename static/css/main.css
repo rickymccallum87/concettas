@@ -1671,6 +1671,10 @@
 		padding: 0.5em 0 0.5em 1.5em;
 	}
 
+	blockquote p {
+		margin: 0;
+	}
+
 	code {
 		background: #f7f7f7;
 		border-radius: 0.35em;

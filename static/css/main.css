@@ -1766,7 +1766,7 @@
 		-webkit-appearance: none;
 		-ms-appearance: none;
 		appearance: none;
-		background: #f7f7f7;
+		background: #1e1e1e;
 		border-radius: 0.35em;
 		border: solid 2px transparent;
 		color: inherit;
@@ -1790,7 +1790,7 @@
 		input[type="email"]:focus,
 		select:focus,
 		textarea:focus {
-			border-color: #49bf9d;
+			border-color: #d53221;
 		}
 
 	.select-wrapper {
@@ -2412,16 +2412,16 @@
 			input[type="reset"].special:hover,
 			input[type="button"].special:hover,
 			.button.special:hover {
-				background-color: #5cc6a7;
-				border-color: #5cc6a7;
+				background-color: #d53221;
+				border-color: #d53221;
 			}
 
 			input[type="submit"].special:active,
 			input[type="reset"].special:active,
 			input[type="button"].special:active,
 			.button.special:active {
-				background-color: #3eb08f;
-				border-color: #3eb08f;
+				background-color: #d53221;
+				border-color: #d53221;
 			}
 
 		input[type="submit"].disabled, input[type="submit"]:disabled,

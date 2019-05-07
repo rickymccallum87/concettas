@@ -5,14 +5,17 @@
 		<li><a href="//plus.google.com/+{{ . }}" target="_blank" class="icon fa-google-plus"><span class="label">Google Plus</span></a></li>
 		{{ end }}
 		{{ with .Site.Params.sidebar.facebook }}
-        <li><a href="//facebook.com/{{ . }}" target="_blank" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-        {{ end }}
+			<li><a href="//facebook.com/{{ . }}" target="_blank" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+		{{ end }}
+		{{ with .Site.Params.sidebar.instagram }}
+			<li><a href="//instagram.com/{{ . }}" target="_blank" class="icon fa-tripadvisor"><span class="label">Instagram</span></a></li>
+		{{ end }}
 		{{ with .Site.Params.sidebar.yelp }}
-        <li><a href="//yelp.com/biz/{{ . }}" target="_blank" class="icon fa-yelp"><span class="label">Yelp</span></a></li>
-        {{ end }}
+			<li><a href="//yelp.com/biz/{{ . }}" target="_blank" class="icon fa-yelp"><span class="label">Yelp</span></a></li>
+		{{ end }}
 		{{ with .Site.Params.sidebar.tripadvisor }}
-        <li><a href="//tripadvisor.com/{{ . }}" target="_blank" class="icon fa-tripadvisor"><span class="label">TripAdvisor</span></a></li>
-        {{ end }}
+			<li><a href="//tripadvisor.com/{{ . }}" target="_blank" class="icon fa-tripadvisor"><span class="label">TripAdvisor</span></a></li>
+		{{ end }}
 		{{ with .Site.Params.sidebar.twitter }}
 		<li><a href="//twitter.com/{{ . }}" target="_blank" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
 		{{ end }}

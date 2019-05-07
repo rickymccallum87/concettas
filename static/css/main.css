@@ -2463,7 +2463,7 @@
 	#header {
 		background-color: #c6b69c;
 		background-image: none;
-		color: rgba(255, 255, 255, 0.5);
+		color: rgba(255, 255, 255, 0.75);
 		height: 100%;
 		left: 0;
 		padding: 2em 4em 0 0;
@@ -3131,7 +3131,7 @@
 		font-size: 1.35em;
 		line-height: 1.5em;
 		display: inline;
-		margin: .25em;
+		padding: .25em;
 	}
 
 	#sidebar ul li a,

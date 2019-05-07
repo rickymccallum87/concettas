@@ -2548,7 +2548,7 @@
 	}
 
 		#main > section {
-			border-top: solid 2px #efefef;
+			border-top: solid 2px #1e1e1e;
 			margin: 4em 0 0 0;
 			padding: 4em 0 0 0;
 		}
@@ -3130,11 +3130,13 @@
 		list-style: none;
 		font-size: 1.35em;
 		line-height: 1.5em;
+		display: inline-block;
+		margin: 0em .25em;
 	}
 
 	#sidebar ul li a,
 	#sidebar ul li a a:visited {
-		color: #a2a2a2;
+		color: white;
 		text-decoration: none;
 	}
 

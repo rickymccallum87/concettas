@@ -1550,7 +1550,7 @@
 /* Basic */
 
 	body {
-		background: #fff;
+		background: #0e0e0e;
 	}
 
 		body.is-loading *, body.is-loading *:before, body.is-loading *:after {
@@ -1589,7 +1589,7 @@
 		}
 
 	strong, b {
-		color: #787878;
+		color: #a2a2a2;
 		font-weight: 400;
 	}
 
@@ -1665,7 +1665,7 @@
 		}
 
 	blockquote {
-		border-left: solid 6px #efefef;
+		border-left: solid 6px #1e1e1e;
 		font-style: italic;
 		margin: 0 0 2em 0;
 		padding: 0.5em 0 0.5em 1.5em;
@@ -2264,7 +2264,7 @@
 		}
 
 			table tbody tr:nth-child(2n + 1) {
-				background-color: #f7f7f7;
+				background-color: #1e1e1e;
 			}
 
 		table td {
@@ -2461,7 +2461,7 @@
 /* Header */
 
 	#header {
-		background-color: #1f1815;
+		background-color: #c6b69c;
 		background-image: none;
 		color: rgba(255, 255, 255, 0.5);
 		height: 100%;

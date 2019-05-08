@@ -2938,7 +2938,11 @@
 			}
 
 				#footer .icons {
-					margin: 0 0 1em 0;
+					margin: 1em 0 0 0;
+				}
+
+				#footer .icons li a {
+					padding: 0.5em;
 				}
 
 				#footer .copyright {

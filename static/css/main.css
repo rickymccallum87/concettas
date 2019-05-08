@@ -2941,7 +2941,12 @@
 					margin: 1em 0 0 0;
 				}
 
+				#footer .icons li {
+					margin: 0;
+				}
+
 				#footer .icons li a {
+					display: block;
 					padding: 0.5em;
 				}
 

@@ -2510,7 +2510,6 @@
 
 		#footer .icons {
 			margin: 1em 0 0 0;
-			color: white;
 		}
 
 		#footer .icons li {
@@ -2521,6 +2520,7 @@
 		#footer .icons li a {
 			display: block;
 			padding: 0.5em;
+			color: white;
 		}
 
 		#footer .copyright {

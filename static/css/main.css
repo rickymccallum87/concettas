@@ -2465,7 +2465,7 @@
 /* Header */
 
 	#header {
-		background-color: #ba9676;
+		background-color: #735657;
 		background-image: none;
 		color: rgba(255, 255, 255, 0.75);
 		height: 100%;
@@ -2947,7 +2947,6 @@
 		/* Footer */
 
 			#footer {
-				background-color: #ba9676;
 				background-image: none;
 				bottom: auto;
 				left: auto;

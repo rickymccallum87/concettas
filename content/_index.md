@@ -15,13 +15,15 @@ about:
     wed: '7:30a - 4p'
   phone: 301-829-7571
   text: >-
-    Concetta's Main St Bistro, located in historic downtown Mt. Airy, opens
-    daily at 7:30 with a complete breakfast ,lunch & catering menu. Breakfast is
-    served all day everyday. For lunch, enjoy one of our famously over stuffed
-    sandwiches,subs or wraps. Our soups & salads are fresh, seasonal,and made to
-    order. In addition to daily specials, customer creativity is welcome and
-    encouraged. Catering is customized to your needs and event. We invite you to
-    stop in for breakfast, lunch or carry out .
+    Welcome to **_Concetta's Main Street Bistro!_**  Proudly serving Mt. Airy
+    since **2008**, we are located in historic downtown in the old firehouse.  
+    Open _7 days a week_ at 7:30 am, we feature a complete all day breakfast
+    menu.  Recently voted Mt. Airy's #1 restaurant, Concetta's is famous four
+    our amazing one of kind sandwiches, subs, wraps, salad, and homemade soups. 
+    We always welcome customer creativity as we want your experience to be the
+    best.  We cater under the same philosophy--customized for your particular
+    event, large or small.  **Welcome again to Concetta's!**  We hope to see you
+    soon!
 specials:
   heading: Daily and Seasonal Specials
   text: >-

@@ -136,8 +136,8 @@ paginate = 10
 	    # - send a dummy email yourself to confirm your account
 	    # - click the confirm link in the email from www.formspree.io
 	    # - you're done. Happy mailing!
-		# email = "concettas@verizon.net"
-		email = "mail@example.com"
+		email = "concettasmainstreetbistro@gmail.com"
+		# email = "mail@example.com"
 
 		[params.contact.form]
 			# Set custom strings for the form if your native

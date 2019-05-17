@@ -81,6 +81,8 @@ catering:
     We cater parties, weddings and banquets! Plan your event now!
 
     ## [View Catering Menu](/img/uploads/concettas-catering.pdf)
+
+    Don't see something on our menu? Just ask.
 photos:
   heading: Photo Gallery
   photo:

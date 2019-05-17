@@ -76,8 +76,10 @@ events:
   heading: 'Events '
   text: |-
     > Check here often, we always have something exciting happening!
+    >
+    >
 
-    ****
+    - - -
 catering:
   heading: Catering
   text: |-

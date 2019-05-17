@@ -73,7 +73,7 @@ cuisine:
     ## [View
     Menu](https://concettas.rickymccallum.com/img/uploads/concettas-menu.pdf)
 events:
-  heading: Events
+  heading: 'Events '
   text: "> Check here often, we always have something exciting happening!\n\n**Home Town Chili Cook-Off & Custom Car Show\r, Saturday June 15 click HERE for more info**"
 catering:
   heading: Catering

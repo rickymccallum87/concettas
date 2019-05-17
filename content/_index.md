@@ -74,11 +74,7 @@ cuisine:
     Menu](https://concettas.rickymccallum.com/img/uploads/concettas-menu.pdf)
 events:
   heading: Events
-  text: |-
-    > Check here often, we always have something exciting happening!
-
-    **Monday, April 29**\
-    Save $3 on our Famous Meatball sub!
+  text: "> Check here often, we always have something exciting happening!\n\n**Home Town Chili Cook-Off & Custom Car Show\r, Saturday June 15 click HERE for more info**"
 catering:
   heading: Catering
   text: |-
